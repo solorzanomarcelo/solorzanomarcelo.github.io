@@ -27,4 +27,4 @@ template = env.get_template("index.html.j2")
 output_html = template.render(**output_data)
 
 # Save to site folder
-Path("site/index.html").write_text(output_html, encoding="utf-8")
+Path("index.html").write_text(output_html, encoding="utf-8")
