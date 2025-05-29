@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1>{{ profile.Headline }}</h1>
+  <h1>{{ profile["First Name"] }} {{ profile["Last Name"] }}</h1>
+  <h3>{{ profile.Headline }}</h1>
   <p>{{ profile.Summary }}</p>
 
   <h2>Work Experience</h2>
