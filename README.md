@@ -1,6 +1,6 @@
 Welcome to my personal developer portfolio — a dynamic website built with GitHub Pages and automatically updated using GitHub Actions. This site showcases my experience and skills using data exported from my LinkedIn.
 
-🔗 [Visit the site](https://red-skull.github.io)
+🔗 [Visit the site](https://solorzanomarcelo.github.io)
 
 # 🚀 About the Project
 
