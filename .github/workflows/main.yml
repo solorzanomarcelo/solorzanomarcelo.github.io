@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      - name: Run Portfolio Generator
-        uses: solorzanomarcelo/portfolio-generator@main
+      - name: LinkedIn Portfolio Generator
+        uses: solorzanomarcelo/portfolio-generator@v1.0
+        with:
+          email: "github-actions@github.com"
+          name: "github-actions"
+          branch: "master"
