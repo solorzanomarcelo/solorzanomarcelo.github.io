@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ profile.First_Name }} {{ profile.Last_Name }} - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>{{ profile.Headline }}</h1>
+  <p>{{ profile.Summary }}</p>
+
+  <h2>Work Experience</h2>
+  <ul>
+    {% for job in positions %}
+    <li>
+      <strong>{{ job["Title"] }}</strong> at <em>{{ job["Company Name"] }}</em><br>
+      {{ job["Location"] }} | {{ job["Started On"] }} - {{ job["Finished On"] }}
+      <p>{{ job["Description"] }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Skills</h2>
+  <ul>
+    {% for skill in skills %}
+    <li>{{ skill }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
