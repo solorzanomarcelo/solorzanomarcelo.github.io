@@ -25,4 +25,4 @@ This repository contains:
 |                                                            Software Developer / Web & Mobile / Game Dev Enthusiast                                                                                                                        |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                       **Marcelo Solórzano Astorga**                                                                                                       |
-| [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]([https://www.linkedin.com/in/YOUR-LINKEDIN-ID](https://www.linkedin.com/in/marcelosolorzano)) |
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/marcelosolorzano) |
